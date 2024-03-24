@@ -24,21 +24,22 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-left: 20px; /* Ger lite utrymme mellan länkarna */
+    margin-left: 10px; /* margin between links */
 }
 
 nav ul li a {
     color: black;
-    text-decoration: none; /* Tar bort understrykning */
+    text-decoration: none; /* remove underscore */
 }
 
 nav ul li a:hover {
-    text-decoration: underline; /* Lägger till en pricksunderstrykning vid hover */
+    text-decoration: underline; /* Underscore menu links when hovering */
 }
+
 
 /* general styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'poppins', sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -47,7 +48,7 @@ body {
 }
 
 form {
-    margin-top: 70px; /* Justera detta värde så att det passar din navbars höjd */
+    margin-top: 70px; /* margin top navbar */
 }
 
 
@@ -75,7 +76,6 @@ form {
     text-align: center;
 }
 
-/* Push the footer down */
 main {
     flex: 1;
     margin-top: 20px; /* Justera detta värde baserat på navens höjd */
