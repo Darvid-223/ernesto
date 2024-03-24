@@ -12,7 +12,7 @@ nav {
     z-index: 1000; /* Always on yop */
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* minor transparency */
     border-bottom: 2px solid #000; /* small border on bottom */
-    padding-bottom: 21px; /* space between links */
+    padding-bottom: 20px; /* space between links */
 }
 
 
@@ -36,7 +36,6 @@ nav ul li a:hover {
     text-decoration: underline; /* Lägger till en pricksunderstrykning vid hover */
 }
 
-
 /* general styling */
 body {
     font-family: Arial, sans-serif;
@@ -45,6 +44,10 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; 
+}
+
+form {
+    margin-top: 70px; /* Justera detta värde så att det passar din navbars höjd */
 }
 
 
