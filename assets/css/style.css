@@ -1,14 +1,36 @@
 
 nav {
     position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
     top: 0;
     left: 0;
     width: 100%;
     background-color: #fff; /* Eller vilken färg som passar din design */
     z-index: 1000; /* Se till att nav är ovanför andra element */
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Valfriljus skugga för djup */
+    border-bottom: 2px solid #000; /* Exempel på border */
+    padding-bottom: 21px; /* Skapar utrymme mellan länkar och border */
 }
 
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px; /* Ger lite utrymme mellan länkarna */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black; /* Eller vilken färg du föredrar */
+}
 
 /* general styling */
 body {
@@ -48,7 +70,7 @@ body {
 /* Push the footer down */
 main {
     flex: 1;
-    margin-top: 60px; /* Justera detta värde baserat på navens höjd */
+    margin-top: 20px; /* Justera detta värde baserat på navens höjd */
     
 }
 
