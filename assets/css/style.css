@@ -1,4 +1,15 @@
 
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff; /* Eller vilken färg som passar din design */
+    z-index: 1000; /* Se till att nav är ovanför andra element */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Valfriljus skugga för djup */
+}
+
+
 /* general styling */
 body {
     font-family: Arial, sans-serif;
@@ -37,6 +48,7 @@ body {
 /* Push the footer down */
 main {
     flex: 1;
+    margin-top: 60px; /* Justera detta värde baserat på navens höjd */
     
 }
 
