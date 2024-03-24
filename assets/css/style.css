@@ -48,8 +48,46 @@ body {
 }
 
 form {
-    margin-top: 70px; /* margin top navbar */
+    max-width: 600px; 
+    margin: auto; 
+    padding: 20px; 
+    background: #f3f3f3; 
+    border-radius: 10px; /* rounded corner */
 }
+
+label {
+    display: block; 
+    margin-top: 10px; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+textarea {
+    width: 100%; 
+    padding: 8px; 
+    margin-top: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+/* Submit button */
+input[type="submit"] {
+    background-color: #007bff; 
+    color: white; 
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 5px; /* style button with soft corners */
+    cursor: pointer; /* change mouse to cursor */
+    margin-top: 20px; 
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker color when hovering */
+}
+
 
 
 #navbar {
