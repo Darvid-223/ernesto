@@ -9,6 +9,12 @@ body {
     min-height: 100vh; 
 }
 
+#navbar {
+    font-size: 100%;
+    letter-spacing: 5px;
+    list-style-type: none;
+}
+
 /* Hero image */
 #hero {
     height: 200px;
@@ -17,7 +23,7 @@ body {
     position: relative;
 }
 
-/* Hero image */
+/* Hero text */
 .hero-text {
     position: absolute;
     top: 50%;
