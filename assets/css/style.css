@@ -1,3 +1,6 @@
+
+/* padding/border included in elements total width/height */
+
 * {
     box-sizing: border-box;
 }
@@ -104,7 +107,7 @@ input[type="submit"]:hover {
 }
 
 /* Hero image */
-#hero {
+.hero {
     height: 200px;
     width: 100%;
     background: url("../images/welcomep.jpg") no-repeat center center/cover;
@@ -123,7 +126,7 @@ input[type="submit"]:hover {
 
 main {
     flex: 1;
-    margin-top: 20px; /* Justera detta värde baserat på navens höjd */
+    margin-top: 20px; /* Adjust value bast on navbars height */
     
 }
 
