@@ -108,7 +108,7 @@ input[type="submit"]:hover {
 
 /* Hero image */
 .hero {
-    height: 200px;
+    min-height: 200px;
     width: 100%;
     background: url("../images/welcomep.jpg") no-repeat center center/cover;
     position: relative;
