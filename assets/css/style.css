@@ -61,6 +61,8 @@ label {
     margin-top: 10px; 
 }
 
+
+/* Input form */
 input[type="text"],
 input[type="email"],
 input[type="tel"],
@@ -133,10 +135,10 @@ footer {
 /* Dosnt change flex direction for small screens */
 @media screen and (max-width: 576px) {
     nav ul li {
-        margin: 0 5px; /* less margin for smaller screens */
+        margin: 10 5px; /* less margin for smaller screens */
     }
 
     nav ul li a {
-        padding: 5px; /* less padding to fit smaller screens */
+        padding: 1px; /* less padding to fit smaller screens */
     }
 }
