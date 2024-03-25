@@ -16,25 +16,25 @@ nav {
 
 
 nav ul {
-    display: flex; /* Behåller länkarna horisontellt */
-    justify-content: center; /* Centrerar länkarna i nav */
+    display: flex; 
+    justify-content: center; 
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin-left: 10px; /* margin between links */
+    margin: 10px;
 }
 
 nav ul li a {
     color: black;
-    text-decoration: none; /* remove underscore */
+    text-decoration: none;
+    padding: 5px 10px; 
 }
 
 nav ul li a:hover {
-    text-decoration: underline; /* Underscore menu links when hovering */
+    text-decoration: underline;
 }
 
 
@@ -129,30 +129,14 @@ footer {
     padding: 15px 0;
 }
 
-/* Bas styling som redan finns ovan */
 
-@media screen and (max-width: 600px) {
-    nav {
-        /* Lägg till eller justera stilar för 'nav' för små skärmar här */
-        padding-top: 10px; /* Justera enligt behov */
-        padding-bottom: 10px; /* Justera enligt behov */
-    }
-
-    nav ul {
-        flex-direction: column;
-        align-items: center; /* Centrerar länkarna om nav bredden är 100% */
-        padding: 0;
-    }
-
+/* Dosnt change flex direction for small screens */
+@media screen and (max-width: 576px) {
     nav ul li {
-        display: block; /* Säkerställer att varje länk tar upp en egen rad */
-        margin: 5px 0; /* Ger lite utrymme mellan varje länk */
+        margin: 0 5px; /* less margin for smaller screens */
     }
 
     nav ul li a {
-        display: block; /* Gör länkarna blocknivå för att fylla ut deras container */
-        text-align: center; /* Centrerar texten inom varje länk */
+        padding: 5px; /* less padding to fit smaller screens */
     }
-
-    /* Andra anpassningar för små skärmar */
 }
