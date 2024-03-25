@@ -12,7 +12,6 @@ nav {
     z-index: 1000; /* Always on yop */
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* minor transparency */
     border-bottom: 2px solid #000; /* small border on bottom */
-    padding-bottom: 20px; /* space between links */
 }
 
 
