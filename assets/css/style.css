@@ -4,7 +4,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 20px 10px; 
     top: 0;
     left: 0;
     width: 100%;
@@ -126,4 +126,32 @@ footer {
     color: white; 
     text-align: center;
     padding: 15px 0;
+}
+
+/* Bas styling som redan finns ovan */
+
+@media screen and (max-width: 600px) {
+    nav {
+        /* Lägg till eller justera stilar för 'nav' för små skärmar här */
+        padding-top: 10px; /* Justera enligt behov */
+        padding-bottom: 10px; /* Justera enligt behov */
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center; /* Centrerar länkarna om nav bredden är 100% */
+        padding: 0;
+    }
+
+    nav ul li {
+        display: block; /* Säkerställer att varje länk tar upp en egen rad */
+        margin: 5px 0; /* Ger lite utrymme mellan varje länk */
+    }
+
+    nav ul li a {
+        display: block; /* Gör länkarna blocknivå för att fylla ut deras container */
+        text-align: center; /* Centrerar texten inom varje länk */
+    }
+
+    /* Andra anpassningar för små skärmar */
 }
