@@ -147,6 +147,7 @@ footer {
 
     nav ul li a {
         padding: 2px; /* nav links padding */
+        margin: 0 -1px; 
     }
 
     form {
