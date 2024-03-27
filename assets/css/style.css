@@ -153,6 +153,7 @@ main {
     margin-top: 1px; /* Adjust margin to navbar */
     border-top: 1px solid #cccccc; /* Solid border */
     box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1); /* border shadow*/
+    background-color: #4e0707;
 }
 
 
@@ -168,6 +169,8 @@ footer {
 }
 
 /* food menu styling */
+
+
 .menu-grid {
     font-family: "Edu NSW ACT Foundation", Arial; /* food menu font */
     display: grid;
@@ -175,7 +178,6 @@ footer {
     grid-template-rows: auto auto; /* two rows with height adjustment */
     gap: 10px; /* space between rows */
     padding: 20px;
-    background-color: #4e0707;
     margin-top: 0;
 }
 
