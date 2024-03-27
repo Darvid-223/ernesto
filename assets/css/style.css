@@ -1,6 +1,8 @@
 
-/* padding/border included in elements total width/height */
+/* import Edu NSW ACT Foundation  / font-family: "Edu NSW ACT Foundation" */
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap');
 
+/* padding/border included in elements total width/height */
 * {
     box-sizing: border-box;
 }
@@ -133,6 +135,10 @@ input[type="submit"]:hover {
     position: relative;
 }
 
+.hero, .table-image {
+    border-radius: 0; /* no rounded corners on table and hero image */
+}
+
 main {
     flex: 1;
     margin-top: 18px; /* Adjust margin to navbar */
@@ -144,19 +150,22 @@ footer {
     background: rgba(51, 51, 51, 0.8); /* 80% transparency */
     color: white; 
     text-align: center;
-    padding: 15px 0;
+    padding: 5px 0;
 }
 
 /* food menu styling */
 .menu-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px; /* space between columns and rows */
+    grid-template-columns: 1fr 1fr; /* to equal columns */
+    grid-template-rows: auto auto; /* two rows with height adjustment */
+    gap: 20px; /* space between rows */
     padding: 20px;
 }
 
+
+
 section {
-    background-color: rgba(255, 255, 255, 0.8); /* Lätt genomskinlig bakgrund */
+    background-color: rgba(255, 255, 255, 0.8); /* Transparency */
     border-radius: 10px;
     padding: 15px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* box shadow */
@@ -177,6 +186,7 @@ li {
     font-size: 16px;
 }
 
+/* font icons */
 .fa-solid {
     margin-right: 5px;
     color: #213b3d; 
@@ -218,4 +228,10 @@ li {
         margin: 10px auto; 
         padding: 8px; 
     }
+
+    .menu-grid {
+        grid-template-columns: 1fr; /* One column on smaller screens */
+    }
 }
+
+
