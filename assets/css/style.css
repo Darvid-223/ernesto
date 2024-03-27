@@ -117,16 +117,21 @@ input[type="submit"]:hover {
 
 }
 
-/* Hero text 
+/* Hero image text */
 .hero-text {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    font-family: "Edu NSW ACT Foundation", Arial;
+    font-size: 35px;
+    top: 77%;
+    left: 10%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #dacaca;
     text-align: center;
+    background-color: rgba(54, 30, 30, 0.5); /* Transparency */
+    width: 200px;
+    line-height: 0.1; /* High of text background */
 }
-*/
+
 
 /* table image, form background */
 .table-image {
@@ -134,6 +139,8 @@ input[type="submit"]:hover {
     width: 100%;
     background: url("../images/table.jpg") no-repeat center center/cover;
     position: relative;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* box shadow */
+    margin-top: 0;
     
 }
 
@@ -144,8 +151,11 @@ input[type="submit"]:hover {
 main {
     flex: 1;
     margin-top: 18px; /* Adjust margin to navbar */
-    
+    border-top: 1px solid #cccccc; /* Solid border */
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1); /* border shadow*/
 }
+
+
 
 /* Footer styling */
 footer {
@@ -170,7 +180,7 @@ footer {
 
 
 section {
-    background-color: rgba(255, 255, 255, 0.8); /* Transparency */
+    background-color: rgba(255, 255, 255, 0.5); /* Transparency */
     border-radius: 10px;
     padding: 15px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* box shadow */
@@ -236,6 +246,10 @@ li {
 
     .menu-grid {
         grid-template-columns: 1fr; /* One column on smaller screens */
+    }
+
+    .hero-text {
+        left: 30%; /* position of Hero-text on small screens */
     }
 }
 
