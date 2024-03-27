@@ -147,6 +147,41 @@ footer {
     padding: 15px 0;
 }
 
+/* food menu styling */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px; /* space between columns and rows */
+    padding: 20px;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.8); /* Lätt genomskinlig bakgrund */
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* box shadow */
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 15px; /* Separate h2 from items */
+}
+
+ul {
+    list-style: none; /* No list markings */
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px; /* Space between list items */
+    font-size: 16px;
+}
+
+.fa-solid {
+    margin-right: 5px;
+    color: #213b3d; 
+}
+
 
 /* Dosnt change flex direction for small screens */
 @media screen and (max-width: 576px) {
