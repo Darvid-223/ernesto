@@ -150,7 +150,7 @@ input[type="submit"]:hover {
 
 main {
     flex: 1;
-    margin-top: 18px; /* Adjust margin to navbar */
+    margin-top: 1px; /* Adjust margin to navbar */
     border-top: 1px solid #cccccc; /* Solid border */
     box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1); /* border shadow*/
 }
@@ -207,6 +207,18 @@ li {
 .fa-solid, .fa-brands {
     margin-right: 5px;
     color: #000000; 
+}
+
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap; /* prevent text from breaking */
+    border: 0;
 }
 
 
