@@ -220,7 +220,7 @@ li {
     color: #000000; 
 }
 
-
+/* footer link to github */
 .sr-only {
     position: absolute;
     width: 1px;
@@ -231,6 +231,7 @@ li {
     white-space: nowrap; /* prevent text from breaking */
     border: 0;
 }
+
 
 
 /* Dosnt change flex direction for small screens */
