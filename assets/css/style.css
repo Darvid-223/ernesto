@@ -46,7 +46,7 @@ nav ul li a:hover {
 
 /* general styling */
 body {
-    font-family: 'poppins', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -56,9 +56,9 @@ body {
 
 form {
     max-width: 600px; 
-    margin: 10px auto; 
+    margin: 60px auto; 
     padding: 20px; 
-    background: #f3f3f3; 
+    background: rgba(243, 243, 243, 0.85); /* Transparent form*/
     border-radius: 10px; /* rounded corner */
 }
 
@@ -85,7 +85,7 @@ textarea {
 
 /* Submit button */
 input[type="submit"] {
-    background-color: #007bff; 
+    background-color: #16652c; 
     color: white; 
     padding: 10px 15px; 
     border: none; 
@@ -95,7 +95,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #0056b3; /* Darker color when hovering */
+    background-color: #000000; /* Darker color when hovering */
 }
 
 
@@ -114,7 +114,7 @@ input[type="submit"]:hover {
     position: relative;
 }
 
-/* Hero text */
+/* Hero text 
 .hero-text {
     position: absolute;
     top: 50%;
@@ -122,6 +122,14 @@ input[type="submit"]:hover {
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
+}
+*/
+
+.table-image {
+    min-height: 200px;
+    width: 100%;
+    background: url("../images/table.jpg") no-repeat center center/cover;
+    position: relative;
 }
 
 main {
