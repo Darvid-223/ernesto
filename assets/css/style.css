@@ -16,7 +16,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: #dacaca;
     z-index: 1000; /* Always on yop */
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* minor transparency */
     border-bottom: 1px solid #000; /* small border on bottom */
@@ -87,7 +87,7 @@ textarea {
 
 /* Submit button */
 input[type="submit"] {
-    background-color: #16652c; 
+    background-color: #4e0707; 
     color: white; 
     padding: 10px 15px; 
     border: none; 
@@ -114,6 +114,7 @@ input[type="submit"]:hover {
     width: 100%;
     background: url("../images/welcomep.jpg") no-repeat center center/cover;
     position: relative;
+
 }
 
 /* Hero text 
@@ -160,8 +161,10 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr; /* to equal columns */
     grid-template-rows: auto auto; /* two rows with height adjustment */
-    gap: 20px; /* space between rows */
+    gap: 10px; /* space between rows */
     padding: 20px;
+    background-color: #4e0707;
+    margin-top: 0;
 }
 
 
@@ -189,9 +192,9 @@ li {
 }
 
 /* font icons */
-.fa-solid {
+.fa-solid, .fa-brands {
     margin-right: 5px;
-    color: #213b3d; 
+    color: #000000; 
 }
 
 
