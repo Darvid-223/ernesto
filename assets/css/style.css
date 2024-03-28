@@ -140,7 +140,8 @@ input[type="submit"]:hover {
     background: url("../images/table.jpg") no-repeat center center/cover;
     position: relative;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* box shadow */
-    margin-top: 0;
+    margin-top: 1px; /* Adjust margin to navbar */
+    border-top: 1px solid #cccccc; /* Solid border */
     
 }
 
