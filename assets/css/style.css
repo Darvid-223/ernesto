@@ -302,6 +302,22 @@ li {
     margin: 20px 0;
 }
 
+#social-network {
+    display: flex;
+    justify-content: center; /* Center icons horizontal */
+    list-style: none; /* remove list dots */
+    padding: 0; /* remove standard padding */
+    margin: 20px 0; /* add margin  */
+}
+
+#social-network li {
+    margin: 0 10px;
+}
+
+#social-network a {
+    color: inherit; /* Inherit iconcolor from parent */
+    text-decoration: none; /* remove underscore */
+}
 
 
 
