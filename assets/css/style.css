@@ -280,10 +280,13 @@ li {
 }
 
 .dish img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
+    max-width: 100%; /* make image not extend over border */
+    max-height: 350px; /* Limit height of image  */
+    height: auto; /* keep aspect ratio */
+    margin: 0 auto; /* center horizontally */
+    display: block; /* Make margin: auto work for horizontal centering. */
 }
+
 
 .testimonials blockquote {
     font-style: italic;
@@ -292,8 +295,6 @@ li {
     border-left: 5px solid #4e0707;
     margin: 20px 0;
 }
-
-
 
 
 
