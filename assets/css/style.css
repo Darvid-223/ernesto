@@ -148,12 +148,12 @@ input[type="submit"]:hover {
     border-radius: 0; /* no rounded corners on table and hero image */
 }
 
-main {
+.menu-background {
     flex: 1;
     margin-top: 1px; /* Adjust margin to navbar */
     border-top: 1px solid #cccccc; /* Solid border */
     box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.); /* border shadow*/
-    background: url("../images/tomato.jpg") no-repeat center center/cover;
+    background: url("../images/anna.jpg") no-repeat center center/cover; /* Menu background image */
 
 }
 
@@ -298,6 +298,6 @@ li {
     .hero-text {
         left: 30%; /* position of Hero-text on small screens */
     }
+
+
 }
-
-
