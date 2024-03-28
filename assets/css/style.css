@@ -273,8 +273,8 @@ li {
 
 .feature-dishes .dishes-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2px;
 }
 
 .dish {
@@ -319,6 +319,13 @@ li {
     text-decoration: none; /* remove underscore */
 }
 
+/* Center main text on home page */
+.centered-text {
+    max-width: 600px; /* limit max width */
+    margin: auto; /* center text horizontal */
+    padding: 5px; 
+    text-align: center; 
+}
 
 
 
