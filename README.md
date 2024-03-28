@@ -1,45 +1,183 @@
 # Restaurant Ernesto
 
+The Ernesto website is the website of Restaurant Ernesto, the site provides an overview of dining offerings and services. 
+This website serves as a practical resource for those who enjoy Italian cuisine, providing information about our servings, road direction, and a convenient feature to book a table for dining.
+
+------------------------ Lägg till google map
+
+## Features
+
+### Menu
+
+The website offers an menu section, providing users with a list of dishes. This feature aims to give visitors a look at the culinary choices of the restaurant, making it easier to decide what they'd like to try before visiting the restaurant. 
+
+### Directions
+
+To ensure our guests can find us easily, the Directions feature incorporates Google Maps integration, offering precise location details and customizable route options. This functionality is invaluable for new visitors and regulars alike, ensuring a hassle-free experience in reaching Restaurant Ernesto, whether they're coming from nearby or navigating the city for the first time.
+
+### Navigation Bar
+
+The Navigation Bar at the top of every page allows for effortless exploration of our website. It provides quick access to all sections of the site, including the menu, reservation form, and blog. This feature is designed to enhance user experience by making site navigation intuitive and efficient, ensuring that visitors find the information they need without any frustration.
+
+###
+
+###
 
 
-## About Us
+
+## Testing
 
 
-## Our Menu
+## Deployment
 
 
-### Starters
-
-### Main Courses
-
-### Desserts
-
-### Beverages
-
-## Special Offers
+## Credits
 
 
-## Reservations
 
 
-## Private Events
 
 
-## Gallery
 
 
-## Contact Us
 
 
-## FAQs
 
 
-## Reviews
 
 
-## Join Our Team
 
 
-## Follow Us
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
