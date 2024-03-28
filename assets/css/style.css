@@ -260,6 +260,8 @@ li {
     padding: 20px;
     background-color: #4e0707; /* Sätter den nya bakgrundsfärgen */
     color: #000000; /* Uppdaterar textfärgen för bättre läsbarhet mot den mörka bakgrunden */
+    margin-top: 1px; /* Adjust margin to navbar */
+    border-top: 1px solid #cccccc; /* Solid border */
 }
 
 
