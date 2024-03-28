@@ -12,7 +12,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px 10px; 
+    padding-top: 5px; 
     top: 0;
     left: 0;
     width: 100%;
@@ -153,7 +153,7 @@ input[type="submit"]:hover {
     flex: 1;
     margin-top: 1px; /* Adjust margin to navbar */
     border-top: 1px solid #cccccc; /* Solid border */
-    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.); /* border shadow*/
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.4); /* border shadow*/
     background: url("../images/tomato.jpg") no-repeat center center/cover; /* Menu background image */
 
 }
@@ -324,7 +324,7 @@ li {
     input[type="time"],
     textarea {
         width: 100%; /* input box width*/
-        margin: 10px 10; 
+        margin: 10px 10px; 
         padding: 8px; 
     }
 
