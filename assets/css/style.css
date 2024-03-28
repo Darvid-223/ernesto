@@ -191,6 +191,27 @@ footer {
 }
 
 
+/* Home images */
+.image-tiles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* three columns*/
+    gap: 1px; /* space between images */
+    justify-content: center; /* center grid */
+    margin: auto; /* Centrer tiles on side */
+    padding: 10px;
+}
+
+.image-tiles img {
+
+    width: 100%; 
+    height: auto; 
+    aspect-ratio: 1 / 1; /* make img square */
+    object-fit: cover; 
+}
+
+
+
+
 
 section {
     background-color: rgba(255, 255, 255, 0.5); /* Transparency */
