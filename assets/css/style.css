@@ -152,8 +152,9 @@ main {
     flex: 1;
     margin-top: 1px; /* Adjust margin to navbar */
     border-top: 1px solid #cccccc; /* Solid border */
-    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1); /* border shadow*/
-    background-color: rgba(78, 7, 7, 0.85);
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.); /* border shadow*/
+    background: url("../images/tomato.jpg") no-repeat center center/cover;
+
 }
 
 /* Main header */ 
@@ -178,7 +179,6 @@ footer {
 }
 
 /* food menu styling */
-
 
 .menu-grid {
     font-family: "Edu NSW ACT Foundation", Arial; /* food menu font */
@@ -214,7 +214,7 @@ footer {
 
 
 section {
-    background-color: rgba(255, 255, 255, 0.5); /* Transparency */
+    background-color: rgba(255, 255, 255, 0.85); /* menu transparency */
     border-radius: 10px;
     padding: 15px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* box shadow */
