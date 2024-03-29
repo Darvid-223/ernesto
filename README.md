@@ -3,6 +3,14 @@
 - [Restaurant Ernesto](#restaurant-ernesto)
   * [Introduction & Overview](#introduction---overview)
   * [Website Structure and Development Details](#website-structure-and-development-details)
+  * [Features](#features)
+    + [Navigation Bar](#navigation-bar)
+    + [Home Page](#home-page)
+    + [Menu Page](#menu-page)
+    + [Reserve Page](#reserve-page)
+    + [Responsive Design](#responsive-design)
+    + [Social Media Links](#social-media-links)
+    + [Accessibility Features](#accessibility-features)
   * [Testing](#testing)
     + [Overview](#overview)
     + [Feature Testing](#feature-testing)
@@ -27,6 +35,7 @@
     + [Acknowledgements](#acknowledgements)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 ## Introduction & Overview 
 
@@ -56,7 +65,49 @@ This project's website consists of several key pages, each serving a distinct pu
 - **Reserve Page (`form.html`)**: Contains a reservation form allowing visitors to book a table at our restaurant.
 ![Am I Responsive image](assets/images/formimage.png)
 
+## Features
 
+### Navigation Bar
+
+-Description: The navigation bar is intuitively designed, providing users with easy access to all website sections: Home, Menu, and Reserve.
+
+-Value: Enhances user experience by allowing seamless navigation throughout the site, making it straightforward for visitors to explore the restaurant's offerings and make reservations.
+
+### Home Page
+
+- Description: The Home page offers a warm introduction to Restaurant Ernesto, featuring a captivating hero image, a brief about us section, and highlighted review from a critic.
+
+- Value: Sets the tone for the restaurant's ambiance and quality, inviting users to explore more about the restaurant and encouraging them to visit or make a booking.
+
+### Menu Page
+
+- Description: This page displays the restaurant's menu, categorically divided into starters, main courses, drinks, and desserts, with each item presented appealingly.
+
+- Value: Gives potential visitors a comprehensive look at the culinary delights Restaurant Ernesto offers, aiding in decision-making and enhancing the anticipation of their visit.
+
+### Reserve Page
+
+- Description: Features an easy-to-use reservation form where users can specify their visit's date, time, and any special requests.
+
+- Value: Streamlines the reservation process, making it convenient for users to book a table at their preferred time, ensuring a smooth dining experience.
+
+### Responsive Design
+
+- Description: The website is designed to be fully responsive, adapting its layout to fit the screen size of various devices, from desktops to smartphones.
+
+- Value: Ensures that the website is accessible and functional across all devices, enhancing the user experience for every visitor, regardless of how they access the site.
+
+### Social Media Links
+
+- Description: Social media icons linked to the restaurant's profiles are prominently displayed in the footer, allowing users to follow Restaurant Ernesto on their preferred platforms.
+
+- Value: Enables the restaurant to connect with its audience on a more personal level, providing updates, promotions, and a channel for engagement outside the website.
+
+### Accessibility Features
+
+- Description: The website incorporates accessibility features, including semantic HTML elements and alt text for images, ensuring that it is navigable and usable for visitors with disabilities.
+
+- Value: Demonstrates the restaurant's commitment to inclusivity, making sure all potential guests can access the website information and services.
 
 ##  Testing
 
