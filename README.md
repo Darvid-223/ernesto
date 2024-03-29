@@ -1,5 +1,33 @@
 # Restaurant Ernesto
 
+- [Restaurant Ernesto](#restaurant-ernesto)
+  * [Introduction & Overview](#introduction---overview)
+  * [Website Structure and Development Details](#website-structure-and-development-details)
+  * [Testing](#testing)
+    + [Overview](#overview)
+    + [Feature Testing](#feature-testing)
+    + [Browser Compatibility](#browser-compatibility)
+    + [Responsiveness](#responsiveness)
+    + [Validator Testing](#validator-testing)
+    + [Unfixed Bugs](#unfixed-bugs)
+    + [Handling 404 Errors](#handling-404-errors)
+  * [Technologies Used](#technologies-used)
+    + [Tools and Resources](#tools-and-resources)
+  * [Deployment](#deployment)
+    + [Github Pages](#github-pages)
+  * [Local Development Setup](#local-development-setup)
+    + [Introduction](#introduction)
+    + [Why Visual Studio Code and WSL?](#why-visual-studio-code-and-wsl-)
+    + [Prerequisites](#prerequisites)
+    + [Setting Up the Environment](#setting-up-the-environment)
+  * [Credits](#credits)
+    + [Code Insights and Inspiration](#code-insights-and-inspiration)
+    + [Content](#content)
+    + [Media](#media)
+    + [Acknowledgements](#acknowledgements)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 ## Introduction & Overview 
 
 Restaurant Ernesto is a website consisting of three main pages. Each page serves a specific function, providing information about the fictional restaurant and its offerings.
@@ -124,6 +152,39 @@ The website for Restaurant Ernesto is hosted on GitHub Pages. The steps to deplo
 Remember that it might take a few minutes for the changes to go live. If you make further updates to your project, those changes will be automatically deployed to your GitHub Pages site upon push to the selected branch.
 
 For additional settings like custom domains, refer to the [GitHub Pages documentation](https://docs.github.com/en/github/working-with-github-pages).
+
+## Local Development Setup
+
+### Introduction
+
+While the course recommends using Codeanywhere as a cloud-based development environment, for this project, I opted to use Visual Studio Code installed locally on my Windows computer. My familiarity with Visual Studio Code and its immediate responsiveness compared to the process of setting up and loading Codeanywhere each time greatly influenced this choice.
+
+### Why Visual Studio Code and WSL?
+
+Visual Studio Code is a powerful and versatile code editor that supports a wide range of programming languages and frameworks. Its extensive library of extensions makes it highly customizable, fitting perfectly into my workflow. Furthermore, by leveraging the Windows Subsystem for Linux (WSL), I was able to create a Linux-like development environment on Windows. This setup allowed me to use Linux commands and tools directly in Windows, offering the best of both worlds for web development.
+
+Choosing Visual Studio Code and WSL over Codeanywhere was a strategic decision to optimize my development process, capitalizing on speed and efficiency without sacrificing the versatility and power needed for complex web development tasks.
+
+### Prerequisites
+
+To replicate this local development environment, I installed the following programs to my system:
+
+- Visual Studio Code as my primary code editor.
+- Windows Subsystem for Linux (WSL) for a Linux-compatible terminal and development environment on Windows.
+- Git for version control and cloning the project repository.
+
+### Setting Up the Environment
+
+1. Install WSL: Follow the instructions provided by Microsoft to install WSL on your Windows machine. Choose a Linux distribution of your preference from the Microsoft Store (Ubuntu is a popular choice).
+
+2. Install Visual Studio Code: Download and install Visual Studio Code from the official website. Once installed, enhance your setup with extensions like Live Server for real-time page reloading and the WSL extension to integrate your Linux environment seamlessly.
+
+3. Clone the Repository: Open VS Code's integrated terminal, switch to your WSL environment, and clone the Restaurant Ernesto repository using Git:
+git clone https://github.com/Darvid-223/ernesto.git
+cd ernesto
+
+4. Run the Project Locally: With the repository cloned to your local machine, you can start a simple HTTP server to serve the project files. If you have Python installed in your WSL environment, you can use it to start a server:
+python -m http.server
 
 ## Credits
 
