@@ -12,16 +12,23 @@ Reserve Page: On this page, visitors find a form to reserve a table. The form al
 
 The website is designed for accessibility and ease of use across different devices, ensuring information is readily available regardless of how the site is accessed.
 
-## Features
+![Am I Responsive image](ernesto/assets/images/index.png)
 
-- **Responsive Design:** Ensures a seamless experience across all devices.
-- **Menu Showcase:** List of offerings.
-- **Reservation Form:** A simple, intuitive form for table reservations.
-- **Social Media Integration:** Connect with us on social platforms directly from the footer.
+## Website Structure and Development Details
 
+This project's website consists of several key pages, each serving a distinct purpose to enhance the user experience and provide valuable information about Restaurant Ernesto:
 
+- **Home Page (`index.html`)**: Introduces visitors to Restaurant Ernesto, featuring a welcome message, our featured dish, and customer reviews.
+- **Menu Page (`menu.html`)**: Showcases our wide range of culinary offerings, including starters, main courses, drinks, and desserts.
+- **Reserve Page (`form.html`)**: Contains a reservation form allowing visitors to book a table at our restaurant.
 
+### Handling 404 Errors
 
+To ensure a smooth user experience even when encountering broken or non-existent links, we've implemented a custom 404 page (`404.html`). This page informs users that the content they are looking for cannot be found and provides links back to the main sections of the website. There's no need to modify any code on the existing pages for the custom 404 page to work. Once `404.html` is placed in the root directory of the GitHub repository, GitHub Pages automatically detects and serves this page for any unresolved URLs.
+
+This approach helps maintain user engagement by guiding them back to the website's core content and encourages further exploration rather than leaving them at a dead end.
+
+For more technical details and insights into the development process, please refer to the [GitHub Pages documentation](https://docs.github.com/en/pages).
 
 ## Technologies Used
 
