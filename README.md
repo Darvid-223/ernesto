@@ -2,11 +2,11 @@
 
 ## Introduction & Overview 
 
-Restaurant Ernesto is a website consisting of three main pages, designed as part of an educational project. Each page serves a specific function, providing information about the fictional restaurant and its offerings.
+Restaurant Ernesto is a website consisting of three main pages. Each page serves a specific function, providing information about the fictional restaurant and its offerings.
 
 Home Page: This page introduces the restaurant with a concise description, including a section about the restaurant, its address, and reviews from guests and a critic. A 'Featured Dish' is also displayed, showcasing one of the restaurant's notable offerings.
 
-Menu Page: The menu is detailed on this page, organized into categories: starters, main courses, drinks, and desserts. Each category lists the items available within it, offering a comprehensive view of the restaurant's culinary options.
+Menu Page: The menu is detailed on this page, organized into categories: starters, main courses, drinks, and desserts. Each category lists the items available within it, offering a view of the restaurant's culinary options.
 
 Reserve Page: On this page, visitors find a form to reserve a table. The form allows for the input of date, time, and special requests, facilitating the reservation process for potential guests.
 
