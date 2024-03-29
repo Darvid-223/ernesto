@@ -12,7 +12,10 @@ Reserve Page: On this page, visitors find a form to reserve a table. The form al
 
 The website is designed for accessibility and ease of use across different devices, ensuring information is readily available regardless of how the site is accessed.
 
+![Am I Responsive image](assets/images/allscreens.png)
 ![Am I Responsive image](assets/images/indeximage.png)
+![Am I Responsive image](assets/images/menuimage.png)
+![Am I Responsive image](assets/images/formimage.png)
 
 ## Website Structure and Development Details
 
