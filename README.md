@@ -13,17 +13,52 @@ Reserve Page: On this page, visitors find a form to reserve a table. The form al
 The website is designed for accessibility and ease of use across different devices, ensuring information is readily available regardless of how the site is accessed.
 
 ![Am I Responsive image](assets/images/allscreens.png)
-![Am I Responsive image](assets/images/indeximage.png)
-![Am I Responsive image](assets/images/menuimage.png)
-![Am I Responsive image](assets/images/formimage.png)
+
 
 ## Website Structure and Development Details
 
 This project's website consists of several key pages, each serving a distinct purpose to enhance the user experience and provide valuable information about Restaurant Ernesto:
 
 - **Home Page (`index.html`)**: Introduces visitors to Restaurant Ernesto, featuring a welcome message, our featured dish, and customer reviews.
+![Am I Responsive image](assets/images/indeximage.png)
+
 - **Menu Page (`menu.html`)**: Showcases our wide range of culinary offerings, including starters, main courses, drinks, and desserts.
+![Am I Responsive image](assets/images/menuimage.png)
+
 - **Reserve Page (`form.html`)**: Contains a reservation form allowing visitors to book a table at our restaurant.
+![Am I Responsive image](assets/images/formimage.png)
+
+
+
+##  Testing
+
+### Overview
+
+Rigorous testing has been conducted to ensure that Restaurant Ernesto's website operates effectively across a broad spectrum of devices and browsers. This comprehensive testing approach aimed to validate that all features function as intended, thus offering users an intuitive and hassle-free experience to accomplish their objectives.
+
+### Feature Testing
+
+Each feature of the website, including the navigation bar, reservation form, and menu display, has been meticulously tested to verify its functionality. Here's a summary of the key features and the testing outcomes:
+
+- Navigation Bar: Ensures seamless navigation across different pages of the website. Tested on multiple devices and browsers to confirm its responsiveness and functionality.
+
+- Reservation Form: Allows users to easily reserve a table. Validation checks for required fields were tested to ensure accurate data collection.
+
+- Menu Display: Showcases the restaurant's offerings. Tested for proper display of items across devices, ensuring readability and accessibility.
+
+### Browser Compatibility
+
+The website was tested on several major browsers, including Chrome, Firefox, Safari, and Edge, to ensure compatibility and performance consistency. No significant issues were observed across these platforms.
+
+### Responsiveness
+
+Responsiveness testing was carried out using Chrome DevTools to simulate various screen sizes, from large desktop monitors to smaller mobile screens. The website's design and layout adapted well across all tested screen sizes, maintaining usability and aesthetic appeal.
+
+### Validator Testing
+
+- HTML: The website's HTML code was validated using the W3C Markup Validation Service, which returned no errors, confirming adherence to web standards.
+
+- CSS: The CSS code was validated with the W3C CSS Validation Service (Jigsaw), which also reported no errors, ensuring that the styling follows best practices.
 
 ### Handling 404 Errors
 
